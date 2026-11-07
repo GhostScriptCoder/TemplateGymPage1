@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitZone Gym | Elite Fitness & Training</title>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ==================== HEADER / NAVIGATION ==================== -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <!-- Logo -->
+            <a href="#home" class="logo-wrap">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-dumbbell"></i>
+                </div>
+                <span class="logo-text">FIT<span>ZONE</span></span>
+            </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="desktop-nav">
+                <a href="#home">Home</a>
+                <a href="#features">Why Us</a>
+                <a href="#services">Services & Pricing</a>
+                <a href="#schedule">Schedule</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <!-- Action Buttons -->
+            <div class="desktop-actions">
+                <a href="tel:+917482931201" class="phone-link">
+                    <i class="fa-solid fa-phone"></i> +917482931201
+                </a>
+                <a href="#services" class="btn-primary">Book Trial</a>
+            </div>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button id="menu-btn" class="menu-btn" aria-label="Toggle Menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Navigation Drawer -->
+        <div id="mobile-menu" class="mobile-menu">
+            <a href="#home" class="mobile-link">Home</a>
+            <a href="#features" class="mobile-link">Why Us</a>
+            <a href="#services" class="mobile-link">Services & Pricing</a>
+            <a href="#schedule" class="mobile-link">Schedule</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+            <div class="mobile-actions">
+                <a href="tel:+917482931201" class="mobile-phone">
+                    <i class="fa-solid fa-phone"></i> Call Now
+                </a>
+                <a href="#services" class="mobile-trial">Book Free Trial</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="home" class="hero-section">
+        <div class="container hero-grid">
+            <div class="hero-content">
+                <div class="badge">
+                    <span class="pulse-dot"></span>
+                    Elite Fitness Center &bull; Open 5 AM - 11 PM
+                </div>
+                <h1 class="hero-title">
+                    TRANSFORM YOUR <span class="gradient-text">BODY & MIND</span>
+                </h1>
+                <p class="hero-desc">
+                    State-of-the-art equipment, certified professional trainers, and high-intensity workout zones designed to push your limits and deliver real results.
+                </p>
+                <div class="hero-btns">
+                    <a href="#services" class="btn-primary btn-lg">
+                        Book Appointment <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                    <a href="tel:+917482931201" class="btn-secondary btn-lg">
+                        <i class="fa-solid fa-phone-volume"></i> Call Now
+                    </a>
+                </div>
+                <!-- Trust Badges -->
+                <div class="trust-stats">
+                    <div class="stat-item">
+                        <h3>1500+</h3>
+                        <p>Active Members</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>10+</h3>
+                        <p>Expert Trainers</p>
+                    </div>
+                    <div class="stat-item">
+                        <h3>100%</h3>
+                        <p>Results Driven</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero Visual Card -->
+            <div class="hero-visual">
+                <div class="hero-card-glow"></div>
+                <div class="hero-card">
+                    <img src="https://images.unsplash.com/photo-1517838277536-f5f99be501cd?auto=format&fit=crop&w=800&q=80" alt="Gym Workout" loading="lazy">
+                    <div class="hero-card-overlay">
+                        <span class="program-badge">Featured Program</span>
+                        <h3>Advanced Strength & Conditioning</h3>
+                        <p>Push your physical boundaries with custom routines and elite gear.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== WHY CHOOSE US / SPECIAL FEATURES ==================== -->
+    <section id="features" class="features-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge">The FitZone Advantage</span>
+                <h2 class="section-title">WHY CHOOSE <span class="gradient-text">US</span></h2>
+                <p class="section-desc">We provide everything you need to build the ultimate version of yourself under one roof.</p>
+            </div>
+
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-dumbbell"></i></div>
+                    <h3>World-Class Equipment</h3>
+                    <p>Imported heavy-duty machines, free weights, and functional training gear tailored for all fitness levels.</p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-user-shield"></i></div>
+                    <h3>Expert Certified Trainers</h3>
+                    <p>Personalized coaching and 1-on-1 guidance from seasoned experts specialized in fat loss and muscle gain.</p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                    <h3>Custom Diet & Nutrition</h3>
+                    <p>Tailored macro-calculated diet charts and continuous tracking to complement your intense training sessions.</p>
+                </div>
+                <!-- Feature 4 -->
+                <div class="feature-card">
+                    <div class="feature-icon"><i class="fa-solid fa-clock"></i></div>
+                    <h3>Flexible Timings</h3>
+                    <p>Open 7 days a week from early morning to late night, ensuring your fitness routine never misses a beat.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SERVICES & PRICING SECTION ==================== -->
+    <section id="services" class="pricing-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge">Investment in Health</span>
+                <h2 class="section-title">MEMBERSHIP <span class="gradient-text">PLANS</span></h2>
+                <p class="section-desc">Choose a plan that fits your goals. No hidden charges. Cancel anytime.</p>
+            </div>
+
+            <div class="pricing-grid">
+                <!-- Plan 1 -->
+                <div class="price-card">
+                    <div>
+                        <div class="price-card-top">
+                            <h3>Monthly Starter</h3>
+                            <span class="plan-tag">Standard</span>
+                        </div>
+                        <p class="price-subtitle">Perfect for trying out our facilities and kickstarting short-term goals.</p>
+                        <div class="price-amount">
+                            <span>₹</span>1,999<small> / month</small>
+                        </div>
+                        <ul class="price-features">
+                            <li><i class="fa-solid fa-check"></i> Full Gym Access</li>
+                            <li><i class="fa-solid fa-check"></i> Locker & Shower Access</li>
+                            <li><i class="fa-solid fa-check"></i> Basic Fitness Assessment</li>
+                            <li class="disabled"><i class="fa-solid fa-xmark"></i> Personal Trainer</li>
+                            <li class="disabled"><i class="fa-solid fa-xmark"></i> Custom Diet Plan</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="btn-outline">Choose Monthly</a>
+                </div>
+
+                <!-- Plan 2 (Popular) -->
+                <div class="price-card popular">
+                    <div class="popular-banner">Most Popular</div>
+                    <div>
+                        <div class="price-card-top">
+                            <h3>Quarterly Pro</h3>
+                            <span class="plan-tag popular-tag">Best Value</span>
+                        </div>
+                        <p class="price-subtitle">Our most popular package designed for consistent body transformations.</p>
+                        <div class="price-amount">
+                            <span>₹</span>4,999<small> / 3 months</small>
+                        </div>
+                        <ul class="price-features">
+                            <li><i class="fa-solid fa-check"></i> Full Gym Access 24/7 Priority</li>
+                            <li><i class="fa-solid fa-check"></i> Locker, Shower & Steam Bath</li>
+                            <li><i class="fa-solid fa-check"></i> Advanced Fitness Assessment</li>
+                            <li><i class="fa-solid fa-check"></i> 2 Personal Training Sessions</li>
+                            <li><i class="fa-solid fa-check"></i> Custom Diet & Nutrition Chart</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="btn-primary text-center">Choose Quarterly</a>
+                </div>
+
+                <!-- Plan 3 -->
+                <div class="price-card">
+                    <div>
+                        <div class="price-card-top">
+                            <h3>Elite Annual</h3>
+                            <span class="plan-tag">Ultimate</span>
+                        </div>
+                        <p class="price-subtitle">For dedicated athletes looking for maximum results and total transformation.</p>
+                        <div class="price-amount">
+                            <span>₹</span>15,999<small> / year</small>
+                        </div>
+                        <ul class="price-features">
+                            <li><i class="fa-solid fa-check"></i> All Access VIP Pass</li>
+                            <li><i class="fa-solid fa-check"></i> Premium Locker & Unlimited Steam</li>
+                            <li><i class="fa-solid fa-check"></i> Monthly Body Composition Tracking</li>
+                            <li><i class="fa-solid fa-check"></i> 12 Dedicated Personal Training Sessions</li>
+                            <li><i class="fa-solid fa-check"></i> VIP Diet Coaching & Supplements</li>
+                        </ul>
+                    </div>
+                    <a href="#contact" class="btn-outline">Choose Annual</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== SCHEDULE SECTION ==================== -->
+    <section id="schedule" class="schedule-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="badge">Operational Hours</span>
+                <h2 class="section-title">GYM <span class="gradient-text">TIMINGS</span></h2>
+                <p class="section-desc">Train whenever it fits your schedule. Doors are open 7 days a week.</p>
+            </div>
+
+            <div class="schedule-grid">
+                <div class="schedule-card">
+                    <div class="schedule-icon"><i class="fa-regular fa-calendar-days"></i></div>
+                    <h3>Monday – Saturday</h3>
+                    <p class="time">05:00 AM – 11:00 PM</p>
+                    <span class="status open">Open All Day</span>
+                </div>
+                <div class="schedule-card">
+                    <div class="schedule-icon"><i class="fa-regular fa-calendar-days"></i></div>
+                    <h3>Sunday (Special Hours)</h3>
+                    <p class="time">06:00 AM – 08:00 PM</p>
+                    <span class="status open">Cardio & Recovery Zone</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== CONTACT / BOOKING SECTION ==================== -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <span class="badge">Get In Touch</span>
+                    <h2 class="section-title">READY TO START YOUR <span class="gradient-text">JOURNEY?</span></h2>
+                    <p class="section-desc">Drop by our facility, call us directly, or book your free trial consultation today.</p>
+
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="c-icon"><i class="fa-solid fa-location-dot"></i></div>
+                            <div>
+                                <h4>Location</h4>
+                                <p> <a href="https://maps.app.goo.gl/cZptiLY1ZhJayeFEA?g_st=ac">123 Fitness Boulevard, Near Central Mall, Mumbai - 400001</a> </p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="c-icon"><i class="fa-solid fa-phone"></i></div>
+                            <div>
+                                <h4>Phone Number</h4>
+                                <p><a href="tel:+917482931201">+917482931201</a> / <a href="tel:+917482931201">+917482931201</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="c-icon"><i class="fa-solid fa-envelope"></i></div>
+                            <div>
+                                <h4>Email Address</h4>
+                                <p> <a href="mailto:support@fitzonegym.com">support@fitzonegym.com</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Booking Form -->
+                <div class="contact-form-wrap">
+                    <h3>Book Your Free Trial Session</h3>
+                    <form id="trial-form">
+                        <div class="form-group">
+                            <label for="name">Full Name</label>
+                            <input type="text" id="name" required placeholder="Enter your full name">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" required placeholder="Enter 10-digit mobile number">
+                        </div>
+                        <div class="form-group">
+                            <label for="plan">Preferred Plan</label>
+                            <select id="plan">
+                                <option value="monthly">Monthly Starter (₹1,999)</option>
+                                <option value="quarterly">Quarterly Pro (₹4,999)</option>
+                                <option value="annual">Elite Annual (₹15,999)</option>
+                                <option value="freetrial">Free Trial Session</option>
+                            </select>
+                        </div>
+                        <button type="submit" class="btn-primary full-width-btn">Confirm Booking</button>
+                    </form>
+                    <div id="success-msg" class="success-message hidden">
+                        <i class="fa-solid fa-circle-check"></i> Thank you! We have received your booking and will call you shortly.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <a href="#home" class="logo-wrap footer-logo">
+                    <div class="logo-icon">
+                        <i class="fa-solid fa-dumbbell"></i>
+                    </div>
+                    <span class="logo-text">FIT<span>ZONE</span></span>
+                </a>
+                <p class="footer-desc">Your ultimate destination for strength, conditioning, and elite body transformation. Push your limits with us.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#features">Why Choose Us</a></li>
+                    <li><a href="#services">Membership Plans</a></li>
+                    <li><a href="#schedule">Gym Timings</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Workout Programs</h4>
+                <ul>
+                    <li><a href="#services">Strength Training</a></li>
+                    <li><a href="#services">CrossFit & Functional</a></li>
+                    <li><a href="#services">Weight Loss Cardio</a></li>
+                    <li><a href="#services">Personal Coaching</a></li>
+                    <li><a href="#services">Nutrition Counseling</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Working Hours</h4>
+                <p class="footer-time">Mon - Sat: 5:00 AM - 11:00 PM</p>
+                <p class="footer-time">Sun: 6:00 AM - 8:00 PM</p>
+                <p class="footer-address">123 Fitness Boulevard, Near Central Mall, Mumbai - 400001</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 FitZone Gym. All rights reserved. Designed with precision for peak fitness.</p>
+        </div>
+    </footer>
+
+    <!-- ==================== FLOATING INSTANT ACTION BUTTONS ==================== -->
+    <div class="floating-actions">
+        <a href="https://wa.me/917482931201?text=Hi%20FitZone%20Gym,%20I%20want%20to%20know%20more%20about%20membership%20plans." class="float-btn whatsapp-btn" target="_blank" rel="noopener noreferrer" aria-label="Chat on WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+        </a>
+        <a href="tel:+917482931201" class="float-btn call-btn" aria-label="Call Now">
+            <i class="fa-solid fa-phone"></i>
+        </a>
+    </div>
+
+    <!-- Custom Script File -->
+    <script src="script.js"></script>
+</body>
+</html>
